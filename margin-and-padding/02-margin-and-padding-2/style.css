@@ -1,27 +1,40 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  margin: 10%;
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
 }
-
+/* se pueden usar don atributos en "padding" el primero equivale a "top,bottom" y el segundo a " right,left"*/
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
+  text-align: center;
+  padding: 8px;
   background: #e3f4ff;
 }
-
+/*el margin es auto ya que ya tenmos el de conten y el padding de card*/
 button {
+  display: block;
+  margin:auto;
+  padding: 8px 24px;
   background: white;
   border: 1px solid #eee;
 }
